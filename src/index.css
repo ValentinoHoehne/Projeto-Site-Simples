@@ -1,0 +1,19 @@
+:root {
+  --cor-fundo-principal: #FFFFFF;
+  --cor-fundo-secundario: #F5F5F5;
+  --cor-borda: #E0E0E0;
+  --cor-texto-mutado: #757575;
+  --cor-texto-principal: #212121;
+  --cor-destaque-preto: #000000;
+}
+
+body{
+
+   margin: 0;
+  padding: 0;
+}
+html {
+  background-color: var(--cor-fundo-secundario);
+ 
+
+}
