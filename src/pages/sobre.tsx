@@ -1,4 +1,4 @@
-export default function sobre(){
+export default function Sobre(){
     return(
         <div>hello world</div>
     )

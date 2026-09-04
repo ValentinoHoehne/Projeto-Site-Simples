@@ -5,9 +5,46 @@ div{
     padding: 0;
     margin: 0;
     position: sticky;
-    background-color: wheat;
+    background-color: black;
     height: 4rem;
     color: (--cor-texto-principal);
     text-align: center;
     font-size: x-large;
 }
+
+#botao{
+    
+    background-color: var(--cor-fundo-principal);
+    border-radius: 5px;
+    margin: 10px;
+    height: 25px;
+    width: 60px;    
+    border-style: double;
+}
+
+#tudo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+#botao {
+	
+	background-color:#9ea0a1;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:12px 30px;
+	text-decoration:none;
+    
+}
+#botao:hover {
+	background-color:#b8b6b6;
+}
+#botao:active {
+	position:relative;
+	top:1px;
+}
+

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Button from './components/button'
 import Navbar from './components/navbar'
+import { BrowserRouter } from 'react-router-dom'
 
 
 
@@ -10,8 +10,10 @@ function App() {
 
   return (
     <>
-      <Button></Button>
-      <Navbar></Navbar>
+    <BrowserRouter>
+        <Navbar></Navbar>
+    </BrowserRouter>
+      
     </>
   )
 }

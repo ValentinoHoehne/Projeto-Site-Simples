@@ -1,6 +1,6 @@
 :root {
-  --cor-fundo-principal: #FFFFFF;
-  --cor-fundo-secundario: #F5F5F5;
+  --cor-fundo-principal: #e6e6e6;
+  --cor-fundo-secundario: #e4e4e4;
   --cor-borda: #E0E0E0;
   --cor-texto-mutado: #757575;
   --cor-texto-principal: #212121;
@@ -13,7 +13,7 @@ body{
   padding: 0;
 }
 html {
-  background-color: var(--cor-fundo-secundario);
+  background-color: var(--cor-fundo-principal);
  
 
 }
